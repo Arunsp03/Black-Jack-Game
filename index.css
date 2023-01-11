@@ -1,0 +1,39 @@
+body{
+background-color: green;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+background-image: url("data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgNCAgHBwgHBwcHBw0HBwcHBw8IDQcNFREWFhURExMYHSggGCYxGxUTITEhJSkrLi4uFx8zODMsNygtLisBCgoKDQ0NDg0NDysZFRkrKy0tKy03NysrKy03Ny0tKystLSsrLSsrLSs3Ky0rKysrKysrKysrNysrKysrKysrLf/AABEIAKgBLAMBIgACEQEDEQH/xAAZAAEBAQEBAQAAAAAAAAAAAAABAgADBAf/xAAXEAEBAQEAAAAAAAAAAAAAAAAAAREC/8QAGQEAAwEBAQAAAAAAAAAAAAAAAAECAwQF/8QAGBEBAQEBAQAAAAAAAAAAAAAAAAERAhL/2gAMAwEAAhEDEQA/APnJZieXWLMqMelRUTFw2VVFxEdITOqi4iOkJFVFxMVAiri4iLhM6uKiYqEzq4YmVUCKqFJ0kkVtFoMVFVai0Lia59L6rn1Q0iOnPpfTn1Q1jn059OnTnQ15RU1VTSb8oqaqppN+U1NVRSbRFCqkNY7MC1c1LAxTHpUVExUNlVxfKIuEzq4uIi4SKuLiIqBFdIqVzlXCRXSUyolVKTOukp1Ep0JsXp1GtpJxeptGi0HhtRa1qbQuQdVHVa1FoaSDquXSuqi0NZE1zqrUUNeYmpqqik35gqaqppN+Ympqqmk1iaDUhrHZmZq5uiYDFMOlRUTFQ2VXFxzi4SKuLiIqEiri45yrgRVxUqIqUkVcqoiUykix01tRp0JxetqNbSGL0Wp0Wg8NqbRam0Kka1FrWotDSQWotNqLQ1kFRVVFJrzBU01NJvzBU1VTSbcxNTVVNDWJoNAXHUhmzn6JgMNh0qLiIqGyq4qIi4GdXFREXEpqouOcVAiukMqJVEmrlMqJToTYvTqNbSTi9Gp1tIYdFo0aFSG1NotTaFyG1FrWotJcjWpta1Noa8wWpptTSbcwUVqKGsgqaamk1kFTTU0NIKKakLjuwLZz9EpVDYdKioiKhsauKiIqBFdIqOcXCTVmVEqiRVymVGnSLF6dRp0JxetqNbSGK1tTo0jxWi1Oi0HIbU2i0WhcjWpta1NpNJy1qbWtFJrzyKK1FDaQUVqKTSQVNNTQuQUU1NDSCpNSFPQQzZz9EwMbDqKioiKhsquKiJVQM6uKlRDKE10lMqJTpFi9KNOkWL06jW0ixetqNbSGK0anW0Hh0aNGkucm0Wi1Okucm1NrUaTSctamsLQ0kapptTaTWRqKyaFyNUkULgqaamhUFDUBUeghmsYdQkMpj1CqJJsbFRcrnFShnYuVWucp0Jx00656dIsdNbUadIYvW1GnSPyrW1OtpH5VrJ0aFTlWjU62kqclOtqdJc5NoYaTSRhaLRQuRg1oJcjWpKQqRhWooVBU00UKgqTUhUepgWsZdQsGNj1CQymVijKkhnYrTqToTitOoOkXlenUadI/KtbU62kryvW1GtpKnKtbU62kfk6NGjQqcqGjRpLkOp1tFpKkbWtGgKkYMNJWEBrQoCtQDgorUUKgDUBT1MGaIsUwZTKwkMbOwkMGd5J1JBeVadQdA8q06g6Q8q1tTraSvKtbU6NI8Xo1OtpKxWjRo0jxWjU6NCsVo0aNJWEaw0HhA0aR4dGjRoPCLQLQpqKwM4AaCU9LAtE2FgTRYWDBFimDaaLCU62gvKmTp0i8q1k62g8VrajW0jxWtqdbQeK1tTo0jxWto0aSsOto0aDw6NGtpHh0aNGg8OjWAPDobRoPG0MNB4wta0A2ZgDegsyxSzMEViGNBbQwLCzMEtraGIYdZmB42toYDG1tZiPG1tZgY1tZiMa2swA0aWBjW1mIxraGBto1mBjQWAALAxoZgb//2Q==");
+background-size: cover;
+background-clip: content-box;
+
+}
+h1{
+    color: goldenrod;
+    font-weight: 900;
+    font-size: 50px;
+}
+.game{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.game,p{
+    font-size: 30px;
+    font-weight: 700;
+}
+span{
+    margin: 20px;
+    word-spacing: 2px;
+}
+button{
+    border: none;
+    font-weight: bolder;
+    font-size: 25px;
+    background-color: goldenrod;
+    color:#016f32;
+    height: 50px;
+    cursor: pointer;
+    width: 200px;
+    margin: 10px;
+}
